@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 		<style>
-			
+
 			body {
     			font-family: 'Roboto';
 			}
@@ -17,8 +17,9 @@
 			}
 		</style>
 		<!--semanticUI stuff-->
-		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-		<script src="semantic/dist/semantic.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
 	</head>
 	<body>
 		<title>page 2</title>
@@ -121,17 +122,17 @@
 				<ul><li>MyProject -&gt your project directory</li><li>example.com -&gt your domain name</li></ul><br>
 				<div id="code_box">
 						<code>
-								&ltVirtualHost *:80&gt<br>   
+								&ltVirtualHost *:80&gt<br>
 									ServerAdmin admin@example.com<br>
 										DocumentRoot /var/www/html/CPS530/public<br>
 										ServerName example.com<br>
-									
+
 									&ltDirectory /var/www/html/CPS530/public&gt<br>
 										Options +FollowSymlinks<br>
 										AllowOverride All<br>
 										Require all granted<br>
 									&lt/Directory&gt<br>
-									
+
 										ErrorLog ${APACHE_LOG_DIR}/error.log<br>
 										CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
 									&lt/VirtualHost&gt
