@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"> 
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
 	</head>
@@ -13,17 +13,16 @@
 				<input type="submit" class="ui submit basic button" value="Go to page 2" />
 		</form>
 		<form action="{{ route('tutorial')}}" method="get">
-			<input type="submit" value="Go to page 3" />
+			<input type="submit" class="ui submit button" value="Go to page 3" />
 		</form>
 		<form action="{{ route('demo')}}" method="get">
-				<input type="submit" value="Go to page 4" />
+				<input type="submit" class="ui submit button" value="Go to page 4" />
 		</form>
 		<form action="{{ route('experience')}}" method="get">
-				<input type="submit" value="Go to page 5" />
+				<input type="submit" class="ui submit button" value="Go to page 5" />
 		</form>
 		<form action="{{ route('credits')}}" method="get">
-				<input type="submit" value="Go to page 6" />
+				<input type="submit" class="ui submit button" value="Go to page 6" />
 		</form>
 	</body>
 </html>
-

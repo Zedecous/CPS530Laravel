@@ -156,7 +156,7 @@
 			</li>
 		</ol>
 		<form action="{{ route('home')}}">
-				<input type="submit" value="Go to main page" />
+				<input type="submit" class="ui submit button" value="Go to main page" />
 		</form>
 	</body>
 </html>
