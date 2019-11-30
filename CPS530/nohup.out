@@ -5,3 +5,4 @@ Laravel development server started: http://142.93.159.119:8000
 [Fri Nov 29 18:37:18 2019] 99.237.40.166:57728 [200]: /favicon.ico
 [Fri Nov 29 18:37:22 2019] 99.237.40.166:57731 [200]: /favicon.ico
 Laravel development server started: http://142.93.159.119:8001
+[Sat Nov 30 11:20:12 2019] 92.119.160.18:64452 Invalid request (Malformed HTTP request)
