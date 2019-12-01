@@ -18,12 +18,8 @@
 @endsection
 
 @section('previous')
-  @php
-   route('home')
-  @endphp
+  http://142.93.159.119:8000/demo1
 @endsection
 @section('next')
-  @php
-  route('demo2')
-  @endphp
+  http://142.93.159.119:8000/demo2
 @endsection
