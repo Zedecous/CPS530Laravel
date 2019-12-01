@@ -1,4 +1,4 @@
-@extends('master')
+@extends('page4')
 
 
 @section('recipeTitle', 'Scrambled Eggs')

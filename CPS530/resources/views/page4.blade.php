@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>page 4</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
-   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
-  </head>
-  <body>
-    <p>The actual page that is the result of step #3. Again up to you. This is your actual demo website. Don't forget to mention the URL/link that goes directly to the page here.</p>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Demo</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+		<style media="screen">
+			body { background-color: lightblue; }
+		</style>
+	</head>
+
+
+	<body>
+		<div class="huge ui inverted fluid six item menu">
+			<a href="{{ route('home')}}" class="item">Overview</a>
+			<a href="{{ route('installation')}}" class="item">Installation</a>
+			<a href="{{ route('tutorial')}}" class="item">Tutorial</a>
+			<a href="{{ route('demo')}}" class="active item">Demo</a>
+			<a href="{{ route('experience')}}" class="item">Review</a>
+			<a href="{{ route('credits')}}" class="item">Team</a>
+		</div>
+
+		<div class="ui stackable two column grid">
+		  <div style="background-color: #FFFFFF;" class="one column row">
+		    <div class="column">
+					<h1 style="text-align: center;">@yield('recipeTitle')</h1> <!-- ADD TITLE OF RECIPE HERE-->
+				</div>
+		  </div>
+
+			<div  class="one column row"> <!-- ADD IMAGE HERE-->
+					<img class="ui centered big image" src="@yield('foodImage')">
+		  </div>
+
+			<div  class="one black column row"></div>
+
+			<div style="background-color: #FFFFFF; text-align: center;" class="column">
+				<h2>INGREDIENTS</h2><br>
+				<!-- ADD INGREDIENTS HERE-->
+        @yield('ingredients')
+
+			</div>
+
+			<div style="text-align: center;" class="column">
+				<h2>RECIPE</h2><br>
+				<!--  ADD DIRECTIONS HERE -->
+        @yield('instructions')
+
+			</div>
+
+			<div  class="one column row">
+				<div class="huge fluid ui black buttons">
+					<button class="ui labeled icon button">	<i class="left chevron icon"></i>  Previous Recipe  </button>
+					<button class="ui toggle button"> <i class="heart icon"></i>  Save  </button>
+					<button class="ui right labeled icon button">  Next Recipe  <i class="right chevron icon"></i> </button>
+				</div>
+		  </div>
+
+
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" charset="utf-8"></script>
+	</body>
 </html>
