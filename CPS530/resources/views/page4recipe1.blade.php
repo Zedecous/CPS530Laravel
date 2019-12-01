@@ -22,4 +22,4 @@
 @endsection
 @section('next')
   {{--*/ route('demo2') /*--}}
-endsection
+@endsection
