@@ -12,7 +12,10 @@
 @endsection
 
 @section('instructions')
-  <p>1. Beat eggs, milk, salt and pepper in medium bowl until blended</p>
-  <p>2. Heat butter in large nonstick skillet over medium heat until hot. Pour in egg mixture. As eggs begin to set, gentry pull the eggs across the pan with a spatula, forming large soft curds.</p>
-  <p>3. Continue cooking - pulling, lifting and folding eggs - until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. Serve IMMEDIATELY</p>
+  <p>Beat eggs, milk, salt and pepper in medium bowl until blended</p>
+  <p>Heat butter in large nonstick skillet over medium heat until hot. Pour in egg mixture. As eggs begin to set, gentry pull the eggs across the pan with a spatula, forming large soft curds.</p>
+  <p>Continue cooking - pulling, lifting and folding eggs - until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. Serve IMMEDIATELY</p>
 @endsection
+
+@section('previous','{{ route('demo')}}')
+@section('next','{{ route('demo1')}}')

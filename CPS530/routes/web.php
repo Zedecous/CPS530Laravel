@@ -27,9 +27,13 @@ Route::get('/tutorial', function () {
 	    return view('page3');
 })->name('tutorial');
 
-Route::get('/demo', function () {
+Route::get('/demo1', function () {
 	    return view('page4recipe1');
 })->name('demo');
+
+Route::get('/demo2', function () {
+	    return view('page4recipe2');
+})->name('demo2');
 
 Route::get('/experience', function () {
 	    return view('page5');
