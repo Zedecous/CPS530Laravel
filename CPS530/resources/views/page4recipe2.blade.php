@@ -21,8 +21,12 @@
 @endsection
 
 @section('previous')
-  {{--*/ route('demo') /*--}}
+  @php
+  {{-- route('demo') --}}
+  @endphp
 @endsection
 @section('next')
-  {{--*/ route('demo2') /*--}}
+  @php
+  {{-- route('demo2') --}}
+  @endphp
 @endsection
