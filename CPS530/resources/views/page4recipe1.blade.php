@@ -19,7 +19,7 @@
 
 @section('previous')
   @php
-   route('demo')
+   route('home')
   @endphp
 @endsection
 @section('next')
