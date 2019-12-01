@@ -28,7 +28,7 @@ Route::get('/tutorial', function () {
 })->name('tutorial');
 
 Route::get('/demo', function () {
-	    return view('page4');
+	    return view('page4recipe1');
 })->name('demo');
 
 Route::get('/experience', function () {
