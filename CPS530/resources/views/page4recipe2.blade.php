@@ -24,5 +24,5 @@
   http://142.93.159.119:8000/demo1
 @endsection
 @section('next')
-  http://142.93.159.119:8000/demo2
+  http://142.93.159.119:8000/demo3
 @endsection

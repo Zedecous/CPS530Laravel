@@ -54,7 +54,7 @@
           </form>
 					<button class="ui toggle button"> <i class="heart icon"></i>  Save  </button>
           <form  action="@yield('next')">
-            <input  type="submit" class="ui right labeled icon button" value=" Next Recipe"><i class="right chevron icon"></i>/>
+            <input type="submit" class="ui right labeled icon button" value=" Next Recipe"><i class="right chevron icon"></i>/>
           </form>
 				</div>
 		  </div>

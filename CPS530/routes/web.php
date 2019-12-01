@@ -35,6 +35,14 @@ Route::get('/demo2', function () {
 	    return view('page4recipe2');
 })->name('demo2');
 
+Route::get('/demo3', function () {
+	    return view('page4recipe3');
+})->name('demo3');
+
+Route::get('/demo4', function () {
+	    return view('page4recipe3');
+})->name('demo4');
+
 Route::get('/experience', function () {
 	    return view('page5');
 })->name('experience');
