@@ -17,5 +17,14 @@
   <p>Continue cooking - pulling, lifting and folding eggs - until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. Serve IMMEDIATELY</p>
 @endsection
 
-@section('previous','{{ route(\'demo\')}}')
-@section('next','{{ route(\'demo1\')}}')
+@section('previous')
+  <?php
+   route('demo')
+   ?>
+
+@endsection
+@section('next')
+<?php
+ route('demo2')
+ ?>
+endsection

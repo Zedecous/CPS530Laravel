@@ -50,11 +50,11 @@
 			<div  class="one column row">
 				<div class="huge fluid ui black buttons">
           <form action="@yield('previous')" method="post">
-            <input type="submit" class="ui labeled icon button">	<i class="left chevron icon"></i>/>
+            <input type="submit" class="ui labeled icon button" value="Previous Recipe"><i class="left chevron icon"></i>/>
           </form>
 					<button class="ui toggle button"> <i class="heart icon"></i>  Save  </button>
           <form  action="@yield('next')" method="post">
-            <input  type="submit" class="ui right labeled icon button">  Next Recipe  <i class="right chevron icon"></i>/>
+            <input  type="submit" class="ui right labeled icon button" value=" Next Recipe"><i class="right chevron icon"></i>/>
           </form>
 				</div>
 		  </div>

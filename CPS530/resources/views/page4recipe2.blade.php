@@ -20,5 +20,14 @@
   <p>Reduce oven temperature to 350 degrees F and continue baking 35 to 40 minutes or until knife inserted 1 inch from crust comes out clean. Cool. Garnish as desired. Store leftovers covered in refrigerator.</p>
 @endsection
 
-@section('previous','{{ route(\'demo\')}}')
-@section('next','{{ route(\'demo2\')}}')
+@section('previous')
+  <?php
+   route('demo')
+   ?>
+
+@endsection
+@section('next')
+<?php
+ route('demo2')
+ ?>
+endsection
