@@ -22,11 +22,11 @@
 
 @section('previous')
   @php
-  {{-- route('demo') --}}
+  {{ route('demo') }}
   @endphp
 @endsection
 @section('next')
   @php
-  {{-- route('demo2') --}}
+  {{ route('demo2') }}
   @endphp
 @endsection
