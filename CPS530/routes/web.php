@@ -40,7 +40,7 @@ Route::get('/demo3', function () {
 })->name('demo3');
 
 Route::get('/demo4', function () {
-	    return view('page4recipe3');
+	    return view('page4recipe4');
 })->name('demo4');
 
 Route::get('/experience', function () {
