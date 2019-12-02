@@ -57,14 +57,14 @@ table, th, td{
 <td>Student number: 500762841 </td>
 <td>Student number: 500759063 </td>
 <td>Student number: 500830384 </td>
-<td>Student number: </td>
+<td>Student number: 500649558 </td>
 <tr>
 
 <tr>
 <td>Email: swatenya@ryerson.ca </td>
 <td>Email: sbadrinanarayanan@ryerson.ca </td>
 <td>Email: a28krish@ryerson.ca </td>
-<td>Email: sbadrinanarayanan@ryerson.ca </td>
+<td>Email: calvin.gaspar@ryerson.ca </td>
 <tr>
 
 
