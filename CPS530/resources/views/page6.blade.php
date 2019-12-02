@@ -43,7 +43,7 @@ table, th, td{
 <th>Sydney Baraka Watenya </th>
 <th>Swathi Badrinarayanan </th>
 <th>Ahraanei Krishnakumaran</th>
-<th>Alex Riff</th>
+<th>Calvin Gaspar</th>
 </tr>
 
 <tr>
