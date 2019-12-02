@@ -165,7 +165,7 @@
 			<p>For example: Here is the code to our first page on the scrambled egg tutorial</p>
 			<br>
 			<xmp>
-				<code>
+				<pre>
 				@extends('page4')
 
 
@@ -191,7 +191,7 @@
 				@section('next')
 				  http://142.93.159.119:8000/demo2
 				@endsection
-				</code>
+			</pre>
 			</xmp>
 			<p>This file shows that it extends page4, which it's actual filename is page4.blade.php. On that page4 template, there are sections that allow you to substitute values or code into the html code to avoid repetition.</p>
 			<p>For example, lets look at the section on ingredients in the page4.blade.php</p>
