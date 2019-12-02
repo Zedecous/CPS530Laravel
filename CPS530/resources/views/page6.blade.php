@@ -96,8 +96,14 @@ table, th, td{
 <a href="https://r-stylelab.com/company/blog/web-development/why-use-laravel-what-types-of-business-web-solutions-can-you-build-with-it?fbclid=IwAR1yDjUBQ9TZfIkmAoKKz1zInUXwiRZpfxiuK3lNoi-0lDOJOj793-gwlL8">Why Use Laravel & What Types of Business Web Solutions It Suits Best</a>
 <a href="https://stackshare.io/laravel?fbclid=IwAR1YvlE9Chsxyj3aZihgpwf9OXu0cxZ3EyaqyToQhtfjIM8tWQoKti8Y9Dg#integrations">Laravel</a>
 <h2>Installation</h2>
+<a href="https://semantic-ui.com/introduction/getting-started.html">Semantic UI installation</a>
+<a href="https://www.tutorialspoint.com/laravel/laravel_installation.htm">Laravel Installation</a>
 <h2>Tutorial</h2>
 <h2>Demo</h2>
+<a href="https://www.incredibleegg.org/recipe/basic-scrambled-eggs/">Scrambled eggs recipe</a>
+<a href="https://www.allrecipes.com/recipe/23439/perfect-pumpkin-pie/">Pumpkin pie recipe</a>
+<a href="https://images.media-allrecipes.com/userphotos/720x405/708879.jpg">Chocolate Cake recipe</a>
+<a href="https://www.gimmesomeoven.com/wp-content/uploads/2017/07/How-To-Make-Fried-Rice-Recipe-2-1.jpg"> Fried rice recipe</a>
 <h2>Review</h2>
 <h2>Team</h2>
 <a href="https://www.w3schools.com/css/css_border.asp">CSS Borders</a>
