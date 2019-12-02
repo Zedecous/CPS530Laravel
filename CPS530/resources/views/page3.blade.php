@@ -164,33 +164,7 @@
 			<br>
 			<p>For example: Here is the code to our first page on the scrambled egg tutorial</p>
 			<br>
-				<code>
-
-
-
-				@section('recipeTitle', 'Scrambled Eggs')
-				@section('foodImage', 'https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/Scrambled-with-Milk-930x620.jpg')
-
-				@section('ingredients')
-				  <p>4 Eggs<p>
-				  <p>1/4 cup milk</p>
-				  <p>Salt and pepper</p>
-				  <p>2 tsp. butter</p>
-				@endsection
-
-				@section('instructions')
-				  <p>Beat eggs, milk, salt and pepper in medium bowl until blended</p>
-				  <p>Heat butter in large nonstick skillet over medium heat until hot. Pour in egg mixture. As eggs begin to set, gentry pull the eggs across the pan with a spatula, forming large soft curds.</p>
-				  <p>Continue cooking - pulling, lifting and folding eggs - until thickened and no visible liquid egg remains. Do not stir constantly. REMOVE from heat. Serve IMMEDIATELY</p>
-				@endsection
-
-				@section('previous')
-				  http://142.93.159.119:8000/demo1
-				@endsection
-				@section('next')
-				  http://142.93.159.119:8000/demo2
-				@endsection
-			</code>
+			<img src="/var/www/public_html/CPS530/public/page4.png" alt="Blade code">
 
 			<p>This file shows that it extends page4, which it's actual filename is page4.blade.php. On that page4 template, there are sections that allow you to substitute values or code into the html code to avoid repetition.</p>
 			<p>For example, lets look at the section on ingredients in the page4.blade.php</p>
