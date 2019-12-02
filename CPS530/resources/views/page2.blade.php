@@ -17,12 +17,19 @@
 			}
 		</style>
 		<!--semanticUI stuff-->
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"> <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
 	</head>
 	<body>
-		<title>page 2</title>
+		<div class="huge ui inverted fluid six item menu">
+			<a href="{{ route('home')}}" class="item">Overview</a>
+			<a href="{{ route('installation')}}" class="item">Installation</a>
+			<a href="{{ route('tutorial')}}" class="item">Tutorial</a>
+			<a href="{{ route('demo')}}" class="active item">Demo</a>
+			<a href="{{ route('experience')}}" class="item">Review</a>
+			<a href="{{ route('credits')}}" class="item">Team</a>
+		</div>
+		<title>Installation</title>
 		<h1>Installing the Front/Backend Frameworks</h1>
 		<h4>
 			This section demonstrates how the two frameworks we chose were installed.
@@ -124,10 +131,10 @@
 						<code>
 								&ltVirtualHost *:80&gt<br>
 									ServerAdmin admin@example.com<br>
-										DocumentRoot /var/www/html/CPS530/public<br>
+										DocumentRoot /var/www/html/MyProject/public<br>
 										ServerName example.com<br>
 
-									&ltDirectory /var/www/html/CPS530/public&gt<br>
+									&ltDirectory /var/www/html/MyProject/public&gt<br>
 										Options +FollowSymlinks<br>
 										AllowOverride All<br>
 										Require all granted<br>
@@ -155,8 +162,5 @@
 				</div>
 			</li>
 		</ol>
-		<form action="{{ route('home')}}">
-				<input type="submit" class="ui submit button" value="Go to main page" />
-		</form>
 	</body>
 </html>

@@ -2,15 +2,20 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>page 5</title>
+		<title>Conclusion</title>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
-		<style media="screen">
-			body { background-color: lightblue; }
-		</style>
 	</head>
 	<body>
+		<div class="huge ui inverted fluid six item menu">
+			<a href="{{ route('home')}}" class="item">Overview</a>
+			<a href="{{ route('installation')}}" class="item">Installation</a>
+			<a href="{{ route('tutorial')}}" class="item">Tutorial</a>
+			<a href="{{ route('demo')}}" class="active item">Demo</a>
+			<a href="{{ route('experience')}}" class="item">Review</a>
+			<a href="{{ route('credits')}}" class="item">Team</a>
+		</div>
 		<h1>Conclusion</h1>
 		<div class="ui segments">
 			<p>After working with, Semantic UI and Laravel during the course of this project, we have had a chance to be able to experience more on how each of them works. Throughout this section, we will discuss more on our experience with each of the frameworks</p>
@@ -32,9 +37,5 @@
 				<p>Looking back on this project, I don't feel that we regretted any of the choices we made, but this could be mostly due to our lack of knowledge to what tools are available to us out there. Semantics UI was enjoyable to use and Laravel did have some nice capabilities. In the future, as we learn more about the frameworks that are available in web design, our opinion on this might change since we will have something to be able to compare against, not including not using the frameworks alltogether.</p>
 			</div>
 		</div>
-
-	<form action="{{ route('home')}}">
-		<input type="submit" class="ui submit button" value="Go to main page" />
-	</form>
 	</body>
 </html>
