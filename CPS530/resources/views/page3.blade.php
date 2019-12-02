@@ -164,7 +164,6 @@
 			<br>
 			<p>For example: Here is the code to our first page on the scrambled egg tutorial</p>
 			<br>
-			<p>@extends('page4')</p>
 				<code>
 
 
